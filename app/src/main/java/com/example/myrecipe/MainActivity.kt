@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyRecipeTheme {
-                MealDetailScreen("52772")
+                NavGraph()
             }
         }
     }
